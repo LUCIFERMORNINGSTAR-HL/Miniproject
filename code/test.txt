@@ -1,0 +1,19 @@
+Experimental Testbed Configuration
+
+1. Topology: 
+   - 3-Node Linear Chain (Node 1 -> Node 2 -> Node 3)[cite: 13].
+   - Total Distance: ~1.6 km[cite: 104].
+   - Spacing: Neighbors separated by 800m[cite: 104].
+
+2. Environment:
+   - Non-Line-Of-Sight (NLOS) conditions.
+   - Obstructions: Terrain elevation and foliage between Node 1 and Node 3[cite: 105].
+
+3. Node Configuration:
+   - Hardware: ESP32 + SX1276[cite: 85].
+   - Frequency: 867 MHz[cite: 85].
+   - Traffic: Packets sent at 10-second intervals[cite: 107].
+
+4. Results:
+   - Packet Delivery Rate (PDR): 98.5%[cite: 233].
+   - Latency: Average 1.12s, Max 1.41s[cite: 234].
